@@ -4,7 +4,7 @@ import TestimonialImage from '../images/testimonial.jpg';
 import SritanImg from '../images/sritan.jpg';
 import SaiImg from '../images/sai.png';
 import EvaImg from '../images/eva.jpeg';
-import BrianImg from '../images/bzhou.jpg';
+import BrianImg from '../images/brian.jpg';
 
 function Testimonials() {
   const team = [
