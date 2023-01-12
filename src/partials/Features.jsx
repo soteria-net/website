@@ -79,10 +79,10 @@ function Features() {
           <img className="mx-auto pb-4" src={BrochureImg} width="700" alt="Brochure" />
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4">Safe and sound<span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-indigo-500">.</span></h1>
-            <p className="text-xl text-gray-600">Medical data breaches are at an all-time high. Soteria uses the security technologies of the future to keep patient-specific data private.</p>
+            <p className="text-xl text-gray-600">Medical data breaches are at an all-time high. Soteria uses the cybersecurity technologies of the future to keep patient-specific data private.</p>
           </div>
 
-          <div className='max-w-screen-xl mx-auto py-10 pt-12 px-4 sm:px-6'>
+          <div className='max-w-screen-xl mx-auto py-10 pt-12 px-4 sm:px-6' data-aos="fade-up">
             <div className="flex flex-col sm:flex-row justify-center space-x-4 md:space-x-12 lg:space-x-24 font-bold mb-16 mx-auto w-full text-center">
               <Ticker num={48000000} suffix='Healthcare records impacted in 2022' />
               <Ticker num={590} suffix='Healthcare organizations breached in 2022' />
@@ -97,7 +97,7 @@ function Features() {
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
                 <h3 className="h3 mb-3">Extensive suite of encryptions</h3>
-                <p className="text-xl text-gray-600">Soteria combines several privacy-preserving technologies to create an almost perfectly secure platform for the data that matters most.</p>
+                <p className="text-xl text-gray-600">Soteria combines several privacy-preserving technologies to create SoteriaNET, the most secure platform for the data that matters most.</p>
               </div>
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">

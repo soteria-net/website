@@ -46,7 +46,7 @@ function FeaturesBlocks() {
                 <GlobeAltIcon className="h-8 w-8" />
               </div>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Stance</h4>
-              <p className="text-gray-600 text-left">We know what you're thinking. A group of 4 high schoolers? Claiming to be able to build all this? Not without help. We've cultivated an extensive network of advisors hailing from Onyx by J.P. Morgan and the National Blockchain Project.</p>
+              <p className="text-gray-600 text-left">We know what you're thinking. A group of 4 high schoolers? Claiming to be able to build all this? Not without help. We've cultivated an extensive network of advisors hailing from Onyx by J.P. Morgan and the National Blockchain Project, all of whom will help us develop our product.</p>
             </div>
 
             {/* 2nd item */}
@@ -67,7 +67,7 @@ function FeaturesBlocks() {
                 <LockClosedIcon className="h-8 w-8" />
               </div>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Draw</h4>
-              <p className="text-gray-600 text-left">To get our foot in the door after initial development is complete and seed investor rounds have concluded, we'll leverage influencer marketing via LinkedIn, webinars, and blogs/videos detailing the importance of cybersecurity in healthcare.</p>
+              <p className="text-gray-600 text-left">To get our foot in the door after initial development is complete and seed investor rounds have concluded, we'll leverage influencer marketing via LinkedIn (paid via ROI), webinars, and blogs/videos detailing the importance of cybersecurity in healthcare.</p>
             </div>
 
             {/* 3rd item */}
