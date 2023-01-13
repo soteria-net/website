@@ -81,7 +81,7 @@ function Features() {
           <img className="mx-auto pb-4" src={BrochureImg} width="700" alt="Brochure" />
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4">Safe and sound<span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-indigo-500">.</span></h1>
-            <p className="text-xl text-gray-600">Medical data breaches are at an all-time high. Soteria uses the cybersecurity technologies of the future to keep patient-specific data private.</p>
+            <p className="text-xl text-gray-600">Medical data breaches are at an all-time high. Soteria uses the cybersecurity technologies of the future to protect genetic databases for genetic data companies and researchers, potentially protecting millions of patient records.</p>
           </div>
 
           <div className='max-w-screen-xl mx-auto py-10 pt-12 px-4 sm:px-6' data-aos="fade-up">
@@ -99,7 +99,7 @@ function Features() {
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
                 <h3 className="h3 mb-3">Extensive suite of encryptions</h3>
-                <p className="text-xl text-gray-600">Soteria combines several privacy-preserving technologies to create SoteriaNET, the most secure platform for the data that matters most.</p>
+                <p className="text-xl text-gray-600">Soteria combines several privacy-preserving technologies to create SoteriaNET, the most secure platform for the data that matters most. Through the SoteriaNET platform, institutions can upload and access genetic data efficiently while staying safe at every step of the process.</p>
               </div>
               {/* Tabs buttons */}
               <p className="text-sm md:text-base text-indigo-700 mb-2">Click through to learn about our tech.</p>
@@ -111,7 +111,7 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">Forming the Foundation</div>
-                    <div className="text-gray-600">At the root of our product is a permissioned blockchain that allows for the securement and storage of consumer genetic data, allowing for the establishment of an immutable network.</div>
+                    <div className="text-gray-600">At the root of our product is a permissioned blockchain that allows for the secure upload and storage of consumer genetic data, allowing for the establishment of an immutable network.</div>
                   </div>
                   <div className={"flex justify-center items-center w-8 h-8 shadow shadow-indigo-500 bg-indigo-100 rounded-full text-indigo-500 flex-shrink-0 ml-3 " + (tab == 1 && "invisible")}>
                     {/* <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -127,7 +127,7 @@ function Features() {
                 >
                   <div>
                   <div className="font-bold leading-snug tracking-tight mb-1">Further Fortitude</div>
-                    <div className="text-gray-600">Although the blockchain is immutable, in the event that data in any of the blocks is somehow accessed, hackers won't be able to parse the data as it'll be encrypted with the industry standard AES-256 Bit Cipher.</div>
+                    <div className="text-gray-600">In the event that data in any of the blocks is somehow accessed, hackers won't be able to parse the data as it will be encrypted with the industry standard AES-256 Bit Cipher.</div>
                   </div>
                   <div className={"flex justify-center items-center w-8 h-8 shadow shadow-indigo-500 bg-indigo-100 rounded-full text-indigo-500 flex-shrink-0 ml-3 " + (tab == 2 && "invisible")}>
                     {/* <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -143,7 +143,7 @@ function Features() {
                 >
                   <div>
                   <div className="font-bold leading-snug tracking-tight mb-1">Fire with Fire</div>
-                    <div className="text-gray-600">As quantum computing grows in popularity, hackers will soon be able to effortlessly break modern cryptography. Our blockchain combats this with our implementation of Quantum Key Distribution which will stand resilient in the face of hackers armed with quantum decryption capabilities.</div>
+                    <div className="text-gray-600">As quantum computing grows in popularity, hackers will soon be able to effortlessly break modern cryptography. Our blockchain combats such threats during data retrieval with a custom Quantum Key Distribution which will stand resilient in the face of hackers armed with quantum decryption capabilities.</div>
                   </div>
                   <div className={"flex justify-center items-center w-8 h-8 shadow shadow-indigo-500 bg-indigo-100 rounded-full text-indigo-500 flex-shrink-0 ml-3 " + (tab == 3 && "invisible")}>
                     {/* <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -171,8 +171,8 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col justify-center items-center">
-                    <img className="md:max-w-none mx-auto rounded-lg shadow-md md:mt-[5%]" src={BlockchainImg} width="600" height="480" alt="Features bg" />
-                    <img className="md:max-w-none mx-auto rounded-lg shadow-md md:mt-8" src={BlockchainDashImg} width="600" height="480" alt="Features bg" />
+                    <img className="md:max-w-none mx-auto rounded-lg shadow-md md:mt-[5%]" src={BlockchainDashImg} width="600" height="480" alt="Features bg" />
+                    <img className="md:max-w-none mx-auto rounded-lg shadow-md md:mt-8" src={BlockchainImg} width="600" height="480" alt="Features bg" />
                     {/* <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} /> */}
                   </div>
                 </Transition>
@@ -189,8 +189,8 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col justify-center items-center">
-                    <img className="md:max-w-none mx-auto rounded-lg shadow-md md:mt-[5%]" src={CipherImg} width="600" height="480" alt="Features bg" />
-                    <img className="md:max-w-none mx-auto rounded-lg shadow-md md:mt-8" src={CipherDiagramImg} width="600" height="480" alt="Features bg" />
+                    <img className="md:max-w-none mx-auto rounded-lg shadow-md md:mt-[5%]" src={CipherDiagramImg} width="600" height="480" alt="Features bg" />
+                    <img className="md:max-w-none mx-auto rounded-lg shadow-md md:mt-8" src={CipherImg} width="600" height="480" alt="Features bg" />
                     {/* <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} /> */}
                   </div>
                 </Transition>
@@ -207,8 +207,8 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col justify-center items-center">
-                    <img className="md:max-w-none mx-auto rounded-lg shadow-md md:mt-[5%]" src={QuantumKeyImg} width="600" height="480" alt="Features bg" />
-                    <img className="md:max-w-none mx-auto rounded-lg shadow-md md:mt-8" src={QuantumDashImg} width="600" height="480" alt="Features bg" />
+                    <img className="md:max-w-none mx-auto rounded-lg shadow-md md:mt-[5%]" src={QuantumDashImg} width="600" height="480" alt="Features bg" />
+                    <img className="md:max-w-none mx-auto rounded-lg shadow-md md:mt-8" src={QuantumKeyImg} width="600" height="480" alt="Features bg" />
                   </div>
                 </Transition>
               </div>
