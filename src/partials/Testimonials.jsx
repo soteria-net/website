@@ -20,7 +20,7 @@ function Testimonials() {
       image: SaiImg,
       link: "https://www.linkedin.com/in/sai-mattapalli-519465210/",
       // bio: "Quantbase (YC W23) Business Intern & Blockchain Developer"
-      bio: "Sai is a junior at TJHSST and is eager to explore entrepreneurship in healthcare, utilizing his knowledge in blockchain development. Previously, he's interned at Quantbase (YC W23) where he learned the ins and outs of scaling a business and developing a brand. Furthermore, he's developed projects for the International Blockchain Olympiad, which sparked the creation of Soteria."
+      bio: "Sai is a junior at TJHSST and is eager to explore entrepreneurship in healthcare while utilizing his knowledge in blockchain development. Previously, he has interned at Quantbase (YC W23) where he learned the ins and outs of scaling a business and developing a brand. Furthermore, he is a blockchain developer and has developed projects for the International Blockchain Olympiad, sparking the idea of Soteria."
     },
     {
       name: "Eva Jones",

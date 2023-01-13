@@ -46,7 +46,8 @@ import {
   FireIcon,
   ShieldCheckIcon,
   BuildingLibraryIcon,
-  CursorArrowRaysIcon
+  CursorArrowRaysIcon,
+  ChevronDownIcon
 } from '@heroicons/react/24/outline'
 
 function Features() {
@@ -101,10 +102,10 @@ function Features() {
                 <p className="text-xl text-gray-600">Soteria combines several privacy-preserving technologies to create SoteriaNET, the most secure platform for the data that matters most.</p>
               </div>
               {/* Tabs buttons */}
-              {/* <p className="text-sm md:text-base text-indigo-700 mb-2">Click through to learn about our tech.</p> */}
+              <p className="text-sm md:text-base text-indigo-700 mb-2">Click through to learn about our tech.</p>
               <div className="mb-8 md:mb-0">
                 <a
-                  className={`flex items-center text-lg p-5 rounded-md border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  className={`flex items-end text-lg p-5 rounded-md border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
@@ -112,15 +113,15 @@ function Features() {
                     <div className="font-bold leading-snug tracking-tight mb-1">Forming the Foundation</div>
                     <div className="text-gray-600">At the root of our product is a permissioned blockchain that allows for the securement and storage of consumer genetic data, allowing for the establishment of an immutable network.</div>
                   </div>
-                  <div className={"flex justify-center items-center w-8 h-8 shadow shadow-indigo-500 bg-indigo-50 rounded-full text-indigo-500 flex-shrink-0 ml-3 " + (tab == 1 && "invisible")}>
+                  <div className={"flex justify-center items-center w-8 h-8 shadow shadow-indigo-500 bg-indigo-100 rounded-full text-indigo-500 flex-shrink-0 ml-3 " + (tab == 1 && "invisible")}>
                     {/* <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M11.953 4.29a.5.5 0 00-.454-.292H6.14L6.984.62A.5.5 0 006.12.173l-6 7a.5.5 0 00.379.825h5.359l-.844 3.38a.5.5 0 00.864.445l6-7a.5.5 0 00.075-.534z" />
                     </svg> */}
-                    <CursorArrowRaysIcon className="w-5 h-5" />
+                    <ChevronDownIcon className="w-5 h-5" />
                   </div>
                 </a>
                 <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 2 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  className={`flex items-end text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 2 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
@@ -128,15 +129,15 @@ function Features() {
                   <div className="font-bold leading-snug tracking-tight mb-1">Further Fortitude</div>
                     <div className="text-gray-600">Although the blockchain is immutable, in the event that data in any of the blocks is somehow accessed, hackers won't be able to parse the data as it'll be encrypted with the industry standard AES-256 Bit Cipher.</div>
                   </div>
-                  <div className={"flex justify-center items-center w-8 h-8 shadow shadow-indigo-500 bg-indigo-50 rounded-full text-indigo-500 flex-shrink-0 ml-3 " + (tab == 2 && "invisible")}>
+                  <div className={"flex justify-center items-center w-8 h-8 shadow shadow-indigo-500 bg-indigo-100 rounded-full text-indigo-500 flex-shrink-0 ml-3 " + (tab == 2 && "invisible")}>
                     {/* <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M11.953 4.29a.5.5 0 00-.454-.292H6.14L6.984.62A.5.5 0 006.12.173l-6 7a.5.5 0 00.379.825h5.359l-.844 3.38a.5.5 0 00.864.445l6-7a.5.5 0 00.075-.534z" />
                     </svg> */}
-                    <CursorArrowRaysIcon className="w-5 h-5" />
+                    <ChevronDownIcon className="w-5 h-5" />
                   </div>
                 </a>
                 <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 3 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  className={`flex items-end text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 3 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
@@ -144,11 +145,11 @@ function Features() {
                   <div className="font-bold leading-snug tracking-tight mb-1">Fire with Fire</div>
                     <div className="text-gray-600">As quantum computing grows in popularity, hackers will soon be able to effortlessly break modern cryptography. Our blockchain combats this with our implementation of Quantum Key Distribution which will stand resilient in the face of hackers armed with quantum decryption capabilities.</div>
                   </div>
-                  <div className={"flex justify-center items-center w-8 h-8 shadow shadow-indigo-500 bg-indigo-50 rounded-full text-indigo-500 flex-shrink-0 ml-3 " + (tab == 3 && "invisible")}>
+                  <div className={"flex justify-center items-center w-8 h-8 shadow shadow-indigo-500 bg-indigo-100 rounded-full text-indigo-500 flex-shrink-0 ml-3 " + (tab == 3 && "invisible")}>
                     {/* <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M11.953 4.29a.5.5 0 00-.454-.292H6.14L6.984.62A.5.5 0 006.12.173l-6 7a.5.5 0 00.379.825h5.359l-.844 3.38a.5.5 0 00.864.445l6-7a.5.5 0 00.075-.534z" />
                     </svg> */}
-                    <CursorArrowRaysIcon className="w-5 h-5" />
+                    <ChevronDownIcon className="w-5 h-5" />
                   </div>
                 </a>
               </div>
