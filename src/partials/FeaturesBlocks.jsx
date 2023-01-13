@@ -87,7 +87,7 @@ function FeaturesBlocks() {
                 <EyeSlashIcon className="h-8 w-8" />
               </div>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Aim</h4>
-              <p className="text-gray-600 text-left">Getting our names in the news is one thing, getting Soteria signed on contractual B2B partnerships is another. To validate our tech, we plan on presenting our core algorithms such as our Quantum Key Distribution Algorithm at conferences to build a positive reputation and connections.</p>
+              <p className="text-gray-600 text-left">Getting our names in the news is one thing, getting Soteria signed on contractual B2B partnerships is another. To validate our tech, we plan on presenting our core algorithms such as our Quantum Key Distribution Algorithm at conferences to build a positive reputation in academia and connections.</p>
             </div>
 
             {/* 4th item */}
