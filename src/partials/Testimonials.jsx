@@ -13,7 +13,7 @@ function Testimonials() {
       image: SritanImg,
       link: "https://www.linkedin.com/in/sritan-motati/",
       // bio: "ML Researcher at Harvard Medical School & Full-Stack Developer"
-      bio: "Sritan is a junior at Thomas Jefferson High School for Science and Technology (TJHSST). He is passionate about exploring the uses of modern technologies in healthcare. As an avid researcher and full-stack developer, he has worked as an ML researcher at Harvard Medical School, published independent research, and serves as an officer at his school's Bioinformatics Society and ML Club."
+      bio: "Sritan is a junior at Thomas Jefferson High School for Science and Technology (TJHSST). He is passionate about exploring the uses of modern technologies in healthcare. As an avid researcher and full-stack developer, he has worked as a machine learning (ML) researcher at Harvard Medical School, published independent research, and serves as an officer at his school's Bioinformatics Society and ML Club."
     },
     {
       name: "Sai Mattapalli",
