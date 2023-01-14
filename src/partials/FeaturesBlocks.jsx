@@ -66,7 +66,7 @@ function FeaturesBlocks() {
               >
                 <LockClosedIcon className="h-8 w-8" />
               </div>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Draw</h4>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Aim</h4>
               <p className="text-gray-600 text-left">To get our foot in the door after initial development is complete and seed investor rounds have concluded, we'll leverage influencer marketing via LinkedIn (paid via ROI), webinars, and blogs/videos detailing the importance of cybersecurity in healthcare.</p>
             </div>
 
@@ -86,7 +86,7 @@ function FeaturesBlocks() {
               >
                 <EyeSlashIcon className="h-8 w-8" />
               </div>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Aim</h4>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Draw</h4>
               <p className="text-gray-600 text-left">Getting our names in the news is one thing, getting Soteria signed on contractual B2B partnerships is another. To validate our tech, we plan on presenting our core algorithms such as our Quantum Key Distribution Algorithm at conferences to build a positive reputation in academia and connections.</p>
             </div>
 
