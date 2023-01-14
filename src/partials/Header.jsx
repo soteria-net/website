@@ -44,13 +44,13 @@ function Header() {
           <nav className="flex flex-grow">
             <ul className="flex flex-grow justify-end flex-wrap items-center">
               <li>
-                <ScrollLink to="tech" spy={true} smooth={true} duration={300} className="cursor-pointer font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out" activeClass="active">Product</ScrollLink>
+                <ScrollLink to="tech" spy={true} smooth={true} duration={300} className="cursor-pointer font-medium text-gray-600 hover:text-gray-900 px-3 sm:px-5 py-3 flex items-center transition duration-150 ease-in-out" activeClass="active">Product</ScrollLink>
               </li>
               <li>
-                <ScrollLink to="features" spy={true} smooth={true} duration={300} className="cursor-pointer font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out" activeClass="active">Marketing</ScrollLink>
+                <ScrollLink to="features" spy={true} smooth={true} duration={300} className="cursor-pointer font-medium text-gray-600 hover:text-gray-900 px-3 sm:px-5 py-3 flex items-center transition duration-150 ease-in-out" activeClass="active">Marketing</ScrollLink>
               </li>
               <li>
-                <ScrollLink to="team" spy={true} smooth={true} duration={300} className="cursor-pointer font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out" activeClass="active">Team</ScrollLink>
+                <ScrollLink to="team" spy={true} smooth={true} duration={300} className="cursor-pointer font-medium text-gray-600 hover:text-gray-900 px-3 sm:px-5 py-3 flex items-center transition duration-150 ease-in-out" activeClass="active">Team</ScrollLink>
               </li>
             </ul>
 

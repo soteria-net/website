@@ -22,7 +22,7 @@ const Ticker = ({ num, suffix }) => {
             >
               <h4 className="text-2xl sm:text-3xl lg:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-indigo-500" ref={countUpRef} />
             </VisibilitySensor>
-            <p className="text-sm sm:text-md lg:text-lg mt-3 font-medium w-60">{suffix}</p>
+            <p className="mx-auto text-sm sm:text-md lg:text-lg mt-3 font-medium w-60">{suffix}</p>
           </div>
         );
       }}
@@ -85,7 +85,7 @@ function Features() {
           </div>
 
           <div className='max-w-screen-xl mx-auto py-10 pt-12 px-4 sm:px-6' data-aos="fade-up">
-            <div className="flex flex-col sm:flex-row justify-center space-x-4 md:space-x-12 lg:space-x-24 font-bold mb-16 mx-auto w-full text-center">
+            <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 md:space-x-12 lg:space-x-24 font-bold mb-16 mx-auto w-full text-center">
               <Ticker num={48000000} suffix='Healthcare records impacted in 2022' />
               <Ticker num={590} suffix='Healthcare organizations breached in 2022' />
               <Ticker num={1} suffix='Secure solution' />
@@ -173,8 +173,8 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col justify-center items-center">
-                    <img className="md:max-w-none mx-auto rounded-lg shadow-md md:mt-[5%]" src={BlockchainDashImg} width="600" height="480" alt="Features bg" />
-                    <img className="md:max-w-none mx-auto rounded-lg shadow-md md:mt-8" src={BlockchainImg} width="600" height="480" alt="Features bg" />
+                    <img className="md:max-w-none mx-auto rounded-lg shadow-md mt-[5%]" src={BlockchainDashImg} width="600" height="480" alt="Features bg" />
+                    <img className="md:max-w-none mx-auto rounded-lg shadow-md mt-8" src={BlockchainImg} width="600" height="480" alt="Features bg" />
                     {/* <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} /> */}
                   </div>
                 </Transition>
@@ -191,8 +191,8 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col justify-center items-center">
-                    <img className="md:max-w-none mx-auto rounded-lg shadow-md md:mt-[5%]" src={CipherDiagramImg} width="600" height="480" alt="Features bg" />
-                    <img className="md:max-w-none mx-auto rounded-lg shadow-md md:mt-8" src={CipherImg} width="600" height="480" alt="Features bg" />
+                    <img className="md:max-w-none mx-auto rounded-lg shadow-md mt-[5%]" src={CipherDiagramImg} width="600" height="480" alt="Features bg" />
+                    <img className="md:max-w-none mx-auto rounded-lg shadow-md mt-8" src={CipherImg} width="600" height="480" alt="Features bg" />
                     {/* <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} /> */}
                   </div>
                 </Transition>
@@ -209,8 +209,8 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col justify-center items-center">
-                    <img className="md:max-w-none mx-auto rounded-lg shadow-md md:mt-[5%]" src={QuantumDashImg} width="600" height="480" alt="Features bg" />
-                    <img className="md:max-w-none mx-auto rounded-lg shadow-md md:mt-8" src={QuantumKeyImg} width="600" height="480" alt="Features bg" />
+                    <img className="md:max-w-none mx-auto rounded-lg shadow-md mt-[5%]" src={QuantumDashImg} width="600" height="480" alt="Features bg" />
+                    <img className="md:max-w-none mx-auto rounded-lg shadow-md mt-8" src={QuantumKeyImg} width="600" height="480" alt="Features bg" />
                   </div>
                 </Transition>
               </div>
